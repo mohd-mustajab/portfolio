@@ -1,0 +1,27 @@
+
+.heading{
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size: 60px;
+    display: flex;
+    color: rgb(40, 204, 204);
+    font-family: 'Ubuntu', sans-serif;
+}
+.mainpg p b{
+    color: rgb(40, 204, 204);
+}
+.description{
+    margin-top: 190px;
+    font-size: 30px;
+    width: 1000px;
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+@media  (min-width:300px) and (max-width:600px){
+    .heading{
+        font-size: 45px;
+    }
+    .description{
+        margin-left: -150px;
+    }
+}

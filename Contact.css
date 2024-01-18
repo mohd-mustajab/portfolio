@@ -1,0 +1,9 @@
+@media  (min-width:300px) and (max-width:600px){
+    .heading{
+        font-size: 45px;
+    }
+    .description{
+        font-size: 23px;
+        margin-left: -205px;
+    }
+}
