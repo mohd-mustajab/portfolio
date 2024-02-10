@@ -22,11 +22,12 @@ color: white;
     .mainpg{
         flex-direction: column;
         height: 230vh;
-            border: 4px solid rgb(40, 204, 204);
+           
     }
     .projects{
         margin-top: 100px;
         margin-left: 25%;
+         border: 4px solid rgb(40, 204, 204);
     }
 
 }
