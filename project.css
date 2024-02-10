@@ -18,3 +18,16 @@ color: white;
     height: 250px;
     width: 200px;
 }
+@media  (min-width:300px) and (max-width:600px){
+    .mainpg{
+        flex-direction: column;
+        height: 230vh;
+    }
+    .projects{
+        margin-top: 100px;
+        margin-left: 25%;
+    }
+    .nav ul li {
+        font-size: 12px;
+    }
+}
