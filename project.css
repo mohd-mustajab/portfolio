@@ -1,0 +1,20 @@
+.projects{
+height: 300px;
+width: 200px;
+margin: 100px;
+margin-top: 200px;
+font-size: 35px;
+border: 10px solid rgb(40, 204, 204);
+text-decoration: none;
+color: white;
+}
+.projects p{
+    margin:8px 0px 0px 60px;
+}
+.imgs{
+    background-image: url(clock.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 200px;
+}
