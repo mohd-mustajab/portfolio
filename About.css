@@ -129,6 +129,9 @@ animation: slider_html 2s 1s ease-in-out forwards;
     .skill{
         width: 35vh;
     }
+    .mainpg{
+        height: 180vh;
+    }
 @keyframes slider_html{
     0%{
         width: 0;
