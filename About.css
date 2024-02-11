@@ -113,7 +113,7 @@ animation: slider_html 2s 1s ease-in-out forwards;
         width: 70vh;
     }
 }
-@media  (min-width:300px) and (max-width:600px){
+@media  (min-width:300px) and (max-width:1000px){
     .heading{
         font-size: 45px;
     }
