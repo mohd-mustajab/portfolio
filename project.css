@@ -23,7 +23,7 @@ color: white;
     height: 250px;
     width: 200px;
 }
-@media  (min-width:300px) and (max-width:600px){
+@media  (min-width:300px) and (max-width:1000px){
     .mainpg{
         flex-direction: column;
         height: 230vh;
