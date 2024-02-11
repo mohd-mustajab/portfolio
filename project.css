@@ -7,9 +7,14 @@ font-size: 35px;
 border: 10px solid rgb(40, 204, 204);
 text-decoration: none;
 color: white;
+    transition:1s;
 }
 .projects p{
     margin:8px 0px 0px 60px;
+}
+.projects:hover{
+    box-shadow: 0px 0px 30px rgb(40, 204, 204) ;
+    transform: scale(1.1);   
 }
 .imgs{
     background-image: url(clock.jpeg);
