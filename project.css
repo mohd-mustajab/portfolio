@@ -7,7 +7,8 @@ font-size: 35px;
 border: 5px solid rgb(40, 204, 204);
 text-decoration: none;
 color: white;
-    transition:1s;
+transition:1s;
+text-align: center;
 }
 .projects p{
     margin:8px 0px 0px 60px;
@@ -17,11 +18,16 @@ color: white;
     transform: scale(1.1);   
 }
 .imgs{
-    background-image: url(clock.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 250px;
     width: 200px;
+}
+.project1{
+    background-image: url(project1_clock.jpeg);
+}
+.project2{
+    background-image: url(project2_player.jpeg);
 }
 @media  (min-width:300px) and (max-width:1000px){
     .mainpg{
