@@ -9,6 +9,7 @@ text-decoration: none;
 color: white;
 transition:1s;
 text-align: center;
+    color:white;
 }
 .projects:hover{
     box-shadow: 0px 0px 30px rgb(40, 204, 204) ;
