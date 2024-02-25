@@ -11,6 +11,10 @@ transition:1s;
 text-align: center;
     color:white;
 }
+.projects a{
+    text-decoration: none;
+    color: white;
+}
 .projects:hover{
     box-shadow: 0px 0px 30px rgb(40, 204, 204) ;
     transform: scale(1.1);   
