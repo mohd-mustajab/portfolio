@@ -31,6 +31,9 @@ text-align: center;
 .project2{
     background-image: url(project2_player.jpeg);
 }
+.project3{
+    background-image: url(project3_calc.jpeg);
+}
 @media  (min-width:300px) and (max-width:1000px){
     .mainpg{
         flex-direction: column;
