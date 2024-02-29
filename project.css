@@ -32,7 +32,7 @@ text-align: center;
     background-image: url(project2_player.jpeg);
 }
 .project3{
-    background-image: url(project3_calc.jpeg);
+    background-image: url(project3_calc.jpg);
 }
 @media  (min-width:300px) and (max-width:1000px){
     .mainpg{
