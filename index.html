@@ -14,7 +14,7 @@
         <li class="active">Home</li>
         <li><a href="About.html">About</a></li>
         <li><a href="Contact.html">Contact</a></li>
-         <li><a href="project.html">Projects</a></li>
+        <li><a href="project.html">Projects</a></li>
     </ul>
 </nav>
 
@@ -23,16 +23,25 @@
         <div class="intro">
             <h3>Hiii,I am</h3>
             <h1>Mohd Mustajab</h1>
-            <h4>Web <b>Developer</b></h4>
+            <div>
+                <span id="tag"></span>
+            </div>
             <div class="sm"><a href="https://www.instagram.com/its_mj_khan002/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.facebook.com/mohdmustjab.khan" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="https://www.linkedin.com/in/mohd-mustajab-174374271/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://twitter.com/MohdMustajab002" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://github.com/mohd-mustajab" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                <a href="https://github.com/mohd-mustajab" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/MohdMustajab002" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></div>
                 <div class="btn"><a href="mj's CV.pdf" download!>Download CV</a></div>
         </div>
         <img src="myphoto.jpeg" alt="" class="img" width="700px" height="700px">
     </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#tag', {
+          strings: ['Web <b>Devoleper </b>', 'Computer Science <b>Student</b>','BTech <b>3rd Year</b>'],
+          typeSpeed: 50,
+          loop:true
+        });
+      </script>
 </body>
-
 </html>
