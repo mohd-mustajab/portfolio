@@ -1,23 +1,29 @@
 .body{
     display: flex;
 }
-.projects{
+
+.project{
 height: 300px;
 width: 200px;
-margin: 100px;
 margin-top: 200px;
-border: 5px solid rgb(40, 204, 204);
-transition:1s;
+border: 5px solid rgb(155, 211, 211);
+transition: 1s;
 text-align: center;
 }
-.projects a{
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.project a{
     text-decoration: none;
     color: white;
     font-size: 30px;
 }
-.projects:hover{
+.project:hover{
     box-shadow: 0px 0px 30px rgb(40, 204, 204) ;
-    transform: scale(1.1);   
+    transform: scale(1.1);
+    
 }
 .imgs{
     background-repeat: no-repeat;
@@ -32,18 +38,18 @@ text-align: center;
     background-image: url(project2_player.jpeg);
 }
 .project3{
-    background-image: url(project3_calc.jpg);
+    background-image: url(Project3_calc.jpg);
 }
 @media  (min-width:300px) and (max-width:1000px){
     .mainpg{
         flex-direction: column;
         height: 230vh;
-           
     }
-    .projects{
-        margin-top: 100px;
+    .project{
         margin-left: 25%;
-         border: 4px solid rgb(40, 204, 204);
+        border: 4px solid rgb(40, 204, 204);
     }
-
+  .projects{
+    flex-direction: column;
+  }
 }
