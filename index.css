@@ -143,7 +143,7 @@ font-size: 20px;
         border-radius: 200px;
     } 
     .mainpg{
-        height: 115vh;
+        height: 100%;
     }
     .intro h1{
         font-size: 60px;
