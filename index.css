@@ -46,6 +46,7 @@
     padding: 230px;
     font-size: 28px;  
     row-gap: 10px;
+  
 }
 .intro h3{
     font-family: 'Lemon', serif;
@@ -57,16 +58,16 @@
 .intro h1:hover{
     transform: scale(1.2);
 }
-.intro h4{
-    font-family: 'Roboto', sans-serif;
+#tag{
+    font-family: 'Ubuntu', sans-serif;
 }
-.intro h4 b{
+#tag b{
     color: rgb(40, 204, 204);
 }
 .img{
     height: 700px;
     width: 700px;
-       transition: 2s;
+    transition: 2s;
 } 
 .img:hover{
     opacity: 0.3;
@@ -142,7 +143,7 @@ font-size: 20px;
         border-radius: 200px;
     } 
     .mainpg{
-        height: 120vh;
+        height: 115vh;
     }
     .intro h1{
         font-size: 60px;
