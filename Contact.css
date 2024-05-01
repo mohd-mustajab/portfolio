@@ -1,9 +1,68 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+.head{
+   width: 100%;
+   height: 12vh;
+   text-align: center;
+    color: rgb(40, 204, 204);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    margin-top: 55px;
+}
+.input{
+    margin: 30px;
+    height: 6vh;
+    width: 20vw;
+    background: transparent;
+    border: 2px rgb(40, 204, 204) solid;
+    font-size: 16px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 6px;
+}
+.textarea{
+ 
+    height: 20vh;
+    width: 44vw;
+}
+form{
+    height: 0vh;
+    width: 50vw;
+    margin: auto;
+}
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    line-height: 0;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+}
+
 @media  (min-width:300px) and (max-width:600px){
-    .heading{
-        font-size: 45px;
+    .head{
+        font-size: 40px;
+        height: 10VH;
     }
-    .description{
-        font-size: 20px;
-        margin-left: -205px;
+    form {
+        height: 65vh;
+        width: 80vw;
+        margin: auto;
+    }
+    .input {
+        margin: 15px;
+        height: 4vh;
+        width: 72vw;
+    }
+    .textarea {
+        margin: 15px;
+        height: 20vh;
+        width: 72vw;
     }
 }
