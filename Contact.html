@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,15 +16,25 @@
         <li><a href="About.html">About</a></li>
         <li class="active">Contact</li>
         <li><a href="project.html">Projects</a></li>
+
     </ul>
 </nav>
+
 <body>
-    <div class="mainpg">
-        <p class="heading">Contact:</p>
-        <p class="description">
-    <b>Phone Number:</b>8077144723 <br><br>
-    <b>Email:</b>mohdmustajab002@gmail.com
-        </p>
+    <div class="main">
+        <p class="head">Contact Me!</p>
+        <form action="#">
+            <input class="input" id="name" type="text" placeholder="Your Name" required>
+            <input class="input" id="email" type="text" placeholder="Email" required>
+            <input class="input" id="phone" type="text" placeholder="Phone Number" required>
+            <input class="input" id="sub" type="text" placeholder="Subject" required>
+            <textarea class="input textarea" id="msg" placeholder="Your Message" required></textarea>
+           <div class="btndiv"><button class="btn" type="submit">Send Message</button></div>
+        </form>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>
