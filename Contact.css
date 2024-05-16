@@ -1,6 +1,6 @@
-body{
+.main{
     background-color: black;
-    height: 100vh;
+    height: 120vh;
 }
 .head{
    width: 100%;
@@ -48,9 +48,10 @@ form{
 @media  (min-width:300px) and (max-width:600px){
     .head{
         font-size: 40px;
-        height: 10VH;
+        height: 10vh;
     }
     form{
+    
         width: 80vw;
         margin: auto;
     }
