@@ -1,5 +1,5 @@
 .mainpg{
-    height: 140vh;
+    height: 200vh;
 }
 .heading{
     margin-top: 70px;
@@ -56,6 +56,9 @@ animation: slider_html 2s 1s ease-in-out forwards;
 .javascript div{
     animation: slider_js 2s 1s ease-in-out forwards;
 }
+.react div{
+    animation: slider_react 2s 1s ease-in-out forwards;
+}
 .java div{
     animation: slider_java 2s 1s ease-in-out forwards;
 }
@@ -82,6 +85,14 @@ animation: slider_html 2s 1s ease-in-out forwards;
     }
 }
 @keyframes slider_js{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70vh;
+    }
+}
+@keyframes slider_react{
     0%{
         width: 0;
     }
@@ -130,7 +141,7 @@ animation: slider_html 2s 1s ease-in-out forwards;
         width: 35vh;
     }
     .mainpg{
-        height: 180vh;
+        height: 200vh;
     }
 @keyframes slider_html{
     0%{
@@ -149,6 +160,14 @@ animation: slider_html 2s 1s ease-in-out forwards;
     }
 }
 @keyframes slider_js{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 25vh;
+    }
+}
+@keyframes slider_react{
     0%{
         width: 0;
     }
