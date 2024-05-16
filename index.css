@@ -202,6 +202,7 @@ footer {
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
     border-top: 1px solid white;
+    margin-top:15px;
 }
 
 footer h1 {
