@@ -1,95 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+* {
     margin: 0;
     padding: 0;
 }
-.nav{
-    background-color:black;
+
+body {
+    background-color: black;
+}
+
+.nav {
+    background-color: black;
     height: 6vh;
     display: flex;
     align-items: center;
     color: white;
 }
-.name{
+
+.name {
     padding-left: 35px;
     font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
 }
-.name b{
+
+.name b {
     color: rgb(40, 204, 204);
 }
-.nav ul li{
+
+.nav ul li {
     display: inline-block;
     padding-left: 80px;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
 }
-.nav ul li a:hover ,.active{
+
+.nav ul li a:hover,
+.active {
     color: rgb(40, 204, 204);
 }
- .nav ul li a{
+
+.nav ul li a {
     text-decoration: none;
     color: white;
- } 
-.mainpg{
+}
+
+.mainpg {
     background-color: black;
     color: white;
     display: flex;
-    height: 94vh;
+    height: 150vh;
 }
-.intro{
+
+.intro {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     padding: 230px;
-    font-size: 28px;  
+    font-size: 28px;
     row-gap: 10px;
-  
+
 }
-.intro h3{
+
+.intro h3 {
     font-family: 'Lemon', serif;
 }
-.intro h1{
+
+.intro h1 {
     font-family: 'Ubuntu', sans-serif;
     transition: 2s;
 }
-.intro h1:hover{
+
+.intro h1:hover {
     transform: scale(1.2);
 }
-#tag{
+
+#tag {
     font-family: 'Ubuntu', sans-serif;
 }
-#tag b{
+
+#tag b {
     color: rgb(40, 204, 204);
 }
-.img{
+
+.img {
     height: 700px;
     width: 700px;
     transition: 2s;
-} 
-.img:hover{
+}
+
+.img:hover {
     opacity: 0.3;
 }
-.sm{
-font-size: 20px;
+
+.sm {
+    font-size: 20px;
 }
-.fa-brands{
+
+.fa-brands ,.fa-regular{
     text-decoration: none;
-    color:rgb(40, 204, 204);
+    color: rgb(40, 204, 204);
     background-color: black;
     margin: 15px;
     border-radius: 15px;
 }
 
-.fa-brands:hover{
+.fa-brands:hover {
     color: white;
 }
+
 .btn {
     width: 120px;
     height: 40px;
-    background-color:rgb(40, 204, 204);
+    background-color: rgb(40, 204, 204);
     margin: 25px 35px;
     line-height: 3;
     font-size: 15px;
@@ -98,46 +124,112 @@ font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     border: 1px solid white;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: black;
     transition: 1s;
     border: 1px solid rgb(40, 204, 204);
 }
-.btn a:hover{
+
+.btn a:hover {
     color: rgb(40, 204, 204);
 }
-footer{
+
+b {
+    color: rgb(40, 204, 204);
+}
+
+footer {
+    border-top: 1px solid white;
+}
+
+.footer1,
+.footer2 {
+    display: flex;
+}
+
+.cards {
     background-color: black;
-    height:5vh;
+    height: 20vh;
+    width: 33.33vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.one {
+    font-size: 50px;
+    font-family: "Caveat", cursive;
+}
+
+.one b {
+    font-size: 100px;
+    color: white;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.two li,
+.two li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.three,
+.five,
+.six {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    background-color: black;
     color: white;
     display: flex;
-    align-items: end;
     justify-content: center;
-    font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
+    border-top: 1px solid white;
 }
-b{
+
+footer h1 {
     color: rgb(40, 204, 204);
 }
-@media  (min-width:300px) and (max-width:600px){
-    .nav{
+
+footer p {
+    color: white;
+    margin-top: 10px;
+}
+
+@media (min-width:300px) and (max-width:600px) {
+    .nav {
         height: 5vh;
     }
-    .name{
+
+    .name {
         font-size: 23px;
         padding-left: 10px;
     }
-    .nav ul li{
+
+    .nav ul li {
         font-size: 12px;
         padding-left: 20px;
         margin-top: 20px;
     }
-    .intro{
+
+    .intro {
         padding: 5px;
         row-gap: 30px;
         height: 80vh;
@@ -145,7 +237,8 @@ b{
         margin-left: 20px;
         margin-top: 315px;
     }
-    .img{
+
+    .img {
         height: 300px;
         width: 300px;
         margin-top: 180px;
@@ -154,30 +247,68 @@ b{
         left: -240px;
         border: 2px solid rgb(40, 204, 204);
         border-radius: 200px;
-    } 
-    .mainpg{
+    }
+
+    .mainpg {
         height: 100%;
     }
-    .intro h1{
+
+    .intro h1 {
         font-size: 60px;
     }
-    .intro h3{
+
+    .intro h3 {
         font-size: 23px;
     }
-    .sm{
-        font-size: 15px;
+
+    .sm2 {
+        font-size: 5px;
+        display: flex;
     }
-     footer{
-        font-size: 10px;
-        height: 2vh;
+
+    .sm2 a {
+        height: 15px;
+        width: 15px;
+    }
+
+    .footer1,
+    .footer2 {
+        height: 6vh;
+    }
+
+    .one h1 {
+        font-size: 40px;
+    }
+
+    .cards {
+        height: 6vh;
+        font-size: 5px;
+    }
+
+    .two li a {
+        font-size: 6px;
+    }
+
+    .two li {
+        font-size: 7px;
+    }
+
+    .copyright {
+        font-size: 8px;
+    }
+
+    .one b {
+        font-size: 40px;
     }
 }
-@media  (min-width:600px) and (max-width:1400px){
-.img{
-    width: 400px;
-    height: 400px;
-}
-.intro{
-    padding: 60px;
-}
+
+@media (min-width:600px) and (max-width:1400px) {
+    .img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .intro {
+        padding: 60px;
+    }
 }
