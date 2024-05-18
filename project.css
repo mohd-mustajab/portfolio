@@ -33,13 +33,13 @@ text-align: center;
     width: 200px;
 }
 .project1{
-    background-image: url(project1_clock.jpeg);
+    background-image: url(/Assets/project1_clock.jpeg);
 }
 .project2{
-    background-image: url(project2_player.jpeg);
+    background-image: url(/Assets/project2_player.jpeg);
 }
 .project3{
-    background-image: url(project3_calc.jpg);
+    background-image: url(/Assets/project3_calc.jpg);
 }
 @media (min-width:300px) and (max-width:600px) {
     .mainpg{
