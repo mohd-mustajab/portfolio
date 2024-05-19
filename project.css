@@ -38,15 +38,19 @@ border-radius: 30%;
 }
 .project1{
     background-image: url(/Assets/project1_clock.jpeg);
+    opacity: 0.8;
 }
 .project2{
     background-image: url(/Assets/project2_player.jpeg);
+    opacity: 0.8;
 }
 .project3{
     background-image: url(/Assets/project3_calc.jpg);
+    opacity: 0.8;
 }
 .project4{
     background-image: url(/Assets/project4_todo.jpeg);
+    opacity: 0.8;
 }
 @media (min-width:300px) and (max-width:600px) {
     .mainpg{
@@ -54,14 +58,14 @@ border-radius: 30%;
         height: 100%;
     }
   .project{
-    height: 300px;
+    height: 400px;
     width: 300px;
   }
   .project p{
    font-size: 25px;
   }
   .imgs{
-    height: 270px;
+    height: 370px;
     width: 300px;
 }
 }
